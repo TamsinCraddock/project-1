@@ -76,7 +76,7 @@ h1, h2 {
 
 /* Hero Image Effect? */
 
-/* Hero Image cover text? */
+/* Hero Image cover text? 'find your pet sitter or dog walker today' */
 
 /* Our Values */
 
@@ -94,10 +94,26 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
+    background-color: green;
 }
 
 #right-values {
     padding-top: 30px;
     width: 33%;
-    float:right ; 
+    float:right;
+    background-color: blue; 
+}
+
+hr {
+    border-top: 1.5px solid #006778;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.left-values-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin: 10px 30px 50px 30px;
 }
