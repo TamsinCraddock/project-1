@@ -94,7 +94,6 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
 #right-values {
@@ -116,4 +115,11 @@ hr {
     line-height: 20px;
     clear: both;
     margin: 10px 30px 50px 30px;
+}
+
+.center-values-heading {
+    width: 80%;
+    line-height: 20px;
+    margin: 10px;
+    text-align: center;
 }
