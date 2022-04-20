@@ -10,7 +10,7 @@
 body {
     font-family: Fira+Sans:wght@200, sans-serif;
     font-weight: 300;
-    color: #0093AB;
+    color: #006778;
 }
 
 /* Headings & Logo */
@@ -18,7 +18,7 @@ body {
 h1, h2 {
     font-family: Fira+Sans:wght@200, sans-serif;
     letter-spacing: 2px;
-    color: #006778;
+    /*color: #006778;*/
 
 }
 
@@ -81,7 +81,8 @@ h1, h2 {
 /* Our Values */
 
 #our-values {
-     height: 600px;
+     height: 350px;
+     padding-top: 30px;
 }
 
 #our-values h1 {
@@ -136,3 +137,41 @@ hr {
     text-align: center;
     padding-left: 10px;
 }
+
+/* Our Services */
+
+#our-services {
+    height: 600px;
+    padding-top: 30px;
+    background-color: #006778;
+    color: rgb(255, 255, 255);
+}
+
+#our-services h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#left-services {
+    padding-top: 30px;
+    padding-left: 5%;
+    width: 30%;
+    float: left;
+
+.left-services-heading h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+    .left-services-heading {
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin: 10px;
+    text-align: center;
+    padding-right: 10px;
+    color: rgb(255, 255, 255);
+}
+
