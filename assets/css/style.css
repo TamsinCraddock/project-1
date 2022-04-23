@@ -225,3 +225,26 @@ hr {
     display: block;
     background: url(../images/pexels-marián-šicko-4214919.jpg) no-repeat center center;   
 }
+
+/* footer */
+
+footer {
+    height: 200px;
+    background-color: #006778;
+}
+
+.social-networks {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 2%;
+    padding: 6%;
+    color: rgb(255, 255, 255);
+}
