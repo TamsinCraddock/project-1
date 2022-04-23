@@ -154,18 +154,29 @@ hr {
 }
 
 #left-services {
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 5%;
     width: 30%;
     float: left;
-
-.left-services-heading h2 {
-    text-align: center;
-    font-size: 40px;
-    color: rgb(255, 255, 255);
 }
 
-    .left-services-heading {
+#center-services {
+     padding-top: 10px;
+     width: 30%;
+     float: left;
+}
+
+#right-services {
+     padding-top: 10px;
+     width: 30%;
+     float: left;
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+.left-services-heading {
     float: left;
     line-height: 20px;
     clear: both;
@@ -175,3 +186,42 @@ hr {
     color: rgb(255, 255, 255);
 }
 
+.center-services-heading {
+    line-height: 20px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+
+.right-services-heading {
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin: 10px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+#left-services-image {
+    height: 300px;
+    width: 100%;
+    margin: 0 auto 25px auto;
+    display: block;
+    background: url(../images/pexels-kampus-production-8734462.jpg) no-repeat center center;   
+}
+
+#center-services-image {
+    height: 300px;
+    width: 100%;
+    margin: 0 auto 25px auto;
+    display: block;
+    background: url(../images/pexels-eva-penner-martens-11754092.jpg) no-repeat center center;   
+}
+
+#right-services-image {
+    height: 300px;
+    width: 100%;
+    margin: 0 auto 25px auto;
+    display: block;
+    background: url(../images/pexels-marián-šicko-4214919.jpg) no-repeat center center;   
+}
