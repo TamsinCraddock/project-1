@@ -18,25 +18,63 @@ body {
 h1, h2 {
     font-family: "Fira+Sans:wght@200, sans-serif";
     letter-spacing: 2px;
-    /*color: #006778;*/
+    color: #006778;
 
-}
-
-header{
-    height: 80px;
 }
 
 #logo {
-    float: left;
+    /* float: left; */
     font-size: 280%;
     margin-left: 30px;
 }
 
 /* Navigation Links */
 
-#menu {
+header {
+    padding: 30px 0;
+    height: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#logo-holder h1 {
+    line-height: 30px;
+}
+
+#main-nav li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#main-nav li a {
     font-size: 110%;
     letter-spacing: 2px;
+    float: left;
+    text-align:center;
+    padding: 0 10px;
+    text-decoration: none;
+    line-height: 30px;
+    color: #006778;
+}
+
+#main-nav ul {
+    display: flex;
+    flex-flow: row; 
+}
+
+#main-nav a:hover {
+    border-bottom: 1.5px solid #006778;
+}
+
+.active {
+    border-bottom: 1.5px solid #006778; 
+}
+
+/* #menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    float: left;
 }
 
 #menu, #logo {
@@ -44,10 +82,8 @@ header{
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
     margin-right: 30px;
-    /* how to orer list? */
 }
 
 #menu a{
@@ -61,7 +97,7 @@ header{
 
 .active {
     border-bottom: 1.5px solid #006778; 
-}
+}  */
 
 /* Hero Image */
 
