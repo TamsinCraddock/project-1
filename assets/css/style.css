@@ -364,14 +364,20 @@ tr:nth-child(odd) {
 
 /* Contact us page */
 
-  #contact-image {
-      width: 100%;
+  .contact-image {
+      width: 50%;
+      float: left;
   }
 
   .message-text {
       height 200px;
   }
-  
+
+  .form {
+      background-color: #d8e5e7;
+      margin-bottom: 100px;
+  }
+
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -398,14 +404,17 @@ tr:nth-child(odd) {
   /* Style the container/contact section */
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #d8e5e7;
+    color: #006778;
     padding: 10px;
     text-align: center;
+    margin-top: 30px;
   }
   
+  
   /* Create two columns that float next to eachother */
-  .column {
-    float: left;
+  .form-selection {
+    float: right;
     width: 50%;
     margin-top: 6px;
     padding: 20px;
@@ -417,13 +426,7 @@ tr:nth-child(odd) {
     display: table;
     clear: both;
   }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
+
   }
 
 
@@ -436,3 +439,10 @@ tr:nth-child(odd) {
       width: ;
    } 
 }
+
+ /* Contact us page: Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
