@@ -247,7 +247,6 @@ hr {
     padding-top: 30px;
     width: 100%;
     text-align: center;
-    padding-top: 50px;
 }
 
 #summary p {
@@ -486,7 +485,7 @@ h1, h2 {
 /* Our Values */
 
 #our-values {
-    height: 350px;
+    height: 620px;
     padding-top: none;
 }
 
@@ -502,15 +501,17 @@ h1, h2 {
 }
 
 #center-values {
-   padding-top: 30px;
-   width: 30%;
-   float: left;
+    padding-top: 10px;
+    padding-left: none;
+    width: 100%;
+    float: none;
 }
 
 #right-values {
-   padding-top: 30px;
-   width: 30%;
-   float: left; 
+    padding-top: 10px;
+    padding-left: none;
+    width: 100%;
+    float: none;
 }
 
 hr {
@@ -518,28 +519,133 @@ hr {
 }
 
 .left-values-heading {
-   float: left;
-   line-height: 20px;
-   clear: both;
-   margin: 10px;
+   float: none;
+   line-height: 15px;
+   margin-bottom: 10px;
    text-align: center;
-   padding-right: 10px;
+   padding-right: none;
 }
 
 .center-values-heading {
-   line-height: 20px;
-   margin: 10px;
-   float: left;
+   float: none;
+   line-height: 15px;
+   margin-bottom: 10px;
    text-align: center;
+   padding-right: none;
 }
 
 .right-values-heading {
-   float: left;
-   line-height: 20px;
-   clear: both;
-   margin: 10px;
+    float: none;
+   line-height: 15px;
+   margin-bottom: 10px;
    text-align: center;
-   padding-left: 10px;
+   padding-right: none;
+}
+
+/* Our Services */
+
+#our-services {
+    height: 1680px;
+    padding-top: 20px;
+}
+
+#our-services h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#left-services {
+    padding-top: 5px;
+    padding-left: none;
+    width: 100%;
+    float: none;
+}
+
+#center-services {
+    padding-top: 5px;
+    padding-left: none;
+    width: 100%;
+    float: none;
+}
+
+#right-services {
+    padding-top: 5px;
+    padding-left: none;
+    width: 100%;
+    float: none;
+}
+
+.left-services-heading {
+    float: none;
+    line-height: 20px;
+    margin: none;
+    padding-right: none;
+}
+
+.left-services-heading > h2 {
+    color: rgb(255, 255, 255);
+}
+
+.center-services-heading {
+    line-height: 20px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+
+.center-services-heading > h2 {
+    color: rgb(255, 255, 255);
+}
+
+.right-services-heading {
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin: 10px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.right-services-heading > h2 {
+    color: rgb(255, 255, 255);
+}
+
+#left-services-image {
+    height: 300px;
+    width: 100%;
+    margin: 0 auto 25px auto;
+    display: block;
+    background: url(../images/pexels-kampus-production-8734462.jpg) no-repeat center center;   
+}
+
+#center-services-image {
+    height: 300px;
+    width: 100%;
+    margin: 0 auto 25px auto;
+    display: block;
+    background: url(../images/pexels-eva-penner-martens-11754092.jpg) no-repeat center center;   
+}
+
+#right-services-image {
+    height: 300px;
+    width: 100%;
+    margin: 0 auto 25px auto;
+    display: block;
+    background: url(../images/pexels-marián-šicko-4214919.jpg) no-repeat center center;   
+}
+
+/* Summary */
+
+#summary {
+    height: 350px;
+    padding-top: 20px;
+}
+
+#summary p {
+    width: 90%;
+    margin: none;
+    padding-top: 10px;
+    font-size: 16px;
 }
 
 
