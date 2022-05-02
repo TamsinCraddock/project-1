@@ -340,7 +340,7 @@ tr:nth-child(odd) {
 
 /* Contact us page */
 
-  .contact-image {
+.contact-image {
       width: 50%;
       float: left;
   }
@@ -413,6 +413,14 @@ tr:nth-child(odd) {
  
  @media only screen and (max-width: 480px) {
 
+    .small {
+        display: inherit;
+    }
+
+    .large {
+        display: none;
+    }
+
     body {
         font-weight: 150;
     }
@@ -430,20 +438,18 @@ h1, h2 {
 
 /* Navigation Links */
 
-/*header {
-    padding: 30px 0;
+header {
+    padding: 20px;
     height: 30px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
 }
 
 #logo-holder h1 {
-    line-height: 30px;
-}*/
+    float: none;
+}
 
 #main-nav li {
     margin-right: 0px;
+    font-size: 14px;
 }
 
 #main-nav li a {
@@ -452,21 +458,8 @@ h1, h2 {
     text-align:center;
     padding: 0 15px;
     line-height: 40px;
-
+    margin-bottom: 15px;
 }
-
-/*#main-nav ul {
-    display: flex;
-    flex-flow: row; 
-}
-
-#main-nav a:hover {
-    border-bottom: 1.5px solid #006778;
-}
-
-.active {
-    border-bottom: 1.5px solid #006778; 
-}*/
 
 /* Hero Image */
 
@@ -478,7 +471,7 @@ h1, h2 {
     height: 400px;
     width: 100%;
     background: url(../images/small\ screen_hero-image.jpg) no-repeat center center;
-    margin-top: 20px;
+    margin-top: 40px;
 
 } 
 
@@ -648,7 +641,83 @@ hr {
     font-size: 16px;
 }
 
+/* Pricing Page */
 
+#pricing h1 {
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+#pricing h3 {
+    font-size: 24px;
+    margin: 5px, 0, 5px, 0;
+
+}
+
+#pricing {
+    margin-top: 100px;
+    font-size: 16px;
+    margin: 3px;
+    text-align: center;
+}
+
+/* gallery */
+
+#gallery {
+    column-count: 2;
+    margin-top: 60px;
+}
+
+#gallery > img {
+    width: 100%;
+}
+
+/* Contact us page */
+
+.contact-image {
+    width: 100%;
+    float: none;
+    margin-left: 20%;
+    display: block;
+}
+
+.message-text {
+    height: 400px;
+}
+
+.form {
+    margin-bottom: 0px;
+    height: 800px;
+}
+
+.container {
+  border-radius: none;
+  padding: 5px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.container h2 {
+    margin-top: 20px;
+}
+
+.container p {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.form-selection {
+  float: none;
+  width: 100%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.form:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 }
 
