@@ -103,6 +103,10 @@ header {
     font-size: 40px;
 }
 
+#our-values h3 {
+    font-size: 25px;
+}
+
 #left-values {
     padding-top: 30px;
     padding-left: 5%;
@@ -166,8 +170,9 @@ hr {
     color: rgb(255, 255, 255);
 }
 
-#our-services h2 {
+#our-services h3 {
     color: rgb(255, 255, 255);
+    font-size: 25px;
 }
 
 #left-services {
@@ -511,8 +516,8 @@ tr:nth-child(odd) {
     /* Our Values */
 
     #our-values {
-        height: 800px;
-        padding-top: 0;
+        height: 1000px;
+        padding-top: 20;
     }
 
     #our-values h1 {
@@ -571,7 +576,7 @@ tr:nth-child(odd) {
     /* Our Services */
 
     #our-services {
-        height: 1800px;
+        height: 1900px;
         padding-top: 20px;
     }
 
