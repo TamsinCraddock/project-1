@@ -360,6 +360,10 @@ tr:nth-child(odd) {
 
 /* Contact us page */
 
+.small {
+    display: none;
+}
+
 .contact-image {
       width: 50%;
       float: left;
@@ -447,289 +451,299 @@ tr:nth-child(odd) {
 
     /* Headings & Logo */
 
-h1, h2 {
-    letter-spacing: 1px;
+    h1, h2 {
+        letter-spacing: 1px;
 
-}
+    }
 
-/* Navigation Links */
+    /* Navigation Links */
 
-header {
-    padding: 20px;
-    height: 30px;
-}
+    header {
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+        height: auto;
 
-#main-nav li {
-    margin-right: 0px;
-    font-size: 14px;
-}
+    }
 
-#main-nav li a {
-    letter-spacing: 1px;
-    float: none;
-    text-align:center;
-    padding: 0 15px;
-    line-height: 40px;
-    margin-bottom: 15px;
-}
+    #main-nav ul {
+        flex-flow: column wrap;
+        align-items: center;
+    }
 
-/* Hero Image */
+    #main-nav li {
+        margin-right: 0;
+        margin: auto;
+        display: block;
+        width: 100%;
+    }
 
-#hero-outer {
-    height: 400px;
-}
 
-#hero-image {
-    height: 400px;
-    width: 100%;
-    background: url(../images/small\ screen_hero-image.jpg) no-repeat center center;
-    margin-top: 40px;
+    #main-nav li a {
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 0 5px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    } */
 
-} 
+    /* Hero Image */
 
-/* Our Values */
+    #hero-outer {
+        height: 400px;
+    }
 
-#our-values {
-    height: 620px;
-    padding-top: none;
-}
+    #hero-image {
+        height: 400px;
+        width: 100%;
+        background: url(../images/small\ screen_hero-image.jpg) no-repeat center center;
+        margin-top: 40px;
 
-#our-values h1 {
-   font-size: 30px;
-}
+    } 
 
-#left-values {
-   padding-top: 10px;
-   padding-left: none;
-   width: 100%;
-   float: none;
-}
+    /* Our Values */
 
-#center-values {
-    padding-top: 10px;
-    padding-left: none;
-    width: 100%;
-    float: none;
-}
+    #our-values {
+        height: 620px;
+        padding-top: none;
+    }
 
-#right-values {
-    padding-top: 10px;
-    padding-left: none;
-    width: 100%;
-    float: none;
-}
-
-hr {
-   margin-bottom: 20px;
-}
-
-.left-values-heading {
-   float: none;
-   line-height: 15px;
-   margin-bottom: 10px;
-   text-align: center;
-   padding-right: none;
-}
-
-.center-values-heading {
-   float: none;
-   line-height: 15px;
-   margin-bottom: 10px;
-   text-align: center;
-   padding-right: none;
-}
-
-.right-values-heading {
-    float: none;
-   line-height: 15px;
-   margin-bottom: 10px;
-   text-align: center;
-   padding-right: none;
-}
-
-/* Our Services */
-
-#our-services {
-    height: 1680px;
-    padding-top: 20px;
-}
-
-#our-services h1 {
-    text-align: center;
+    #our-values h1 {
     font-size: 30px;
-}
+    }
 
-#left-services {
-    padding-top: 5px;
+    #left-values {
+    padding-top: 10px;
     padding-left: none;
     width: 100%;
     float: none;
-}
+    }
 
-#center-services {
-    padding-top: 5px;
-    padding-left: none;
-    width: 100%;
-    float: none;
-}
+    #center-values {
+        padding-top: 10px;
+        padding-left: none;
+        width: 100%;
+        float: none;
+    }
 
-#right-services {
-    padding-top: 5px;
-    padding-left: none;
-    width: 100%;
-    float: none;
-}
+    #right-values {
+        padding-top: 10px;
+        padding-left: none;
+        width: 100%;
+        float: none;
+    }
 
-.left-services-heading {
+    hr {
+    margin-bottom: 20px;
+    }
+
+    .left-values-heading {
     float: none;
-    line-height: 20px;
-    margin: none;
+    line-height: 15px;
+    margin-bottom: 10px;
+    text-align: center;
     padding-right: none;
-}
+    }
 
-.left-services-heading > h2 {
-    color: rgb(255, 255, 255);
-}
-
-.center-services-heading {
-    line-height: 20px;
-    margin: 10px;
-    float: left;
-    text-align: center;
-}
-
-.center-services-heading > h2 {
-    color: rgb(255, 255, 255);
-}
-
-.right-services-heading {
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin: 10px;
-    text-align: center;
-    padding-left: 10px;
-}
-
-.right-services-heading > h2 {
-    color: rgb(255, 255, 255);
-}
-
-#left-services-image {
-    height: 300px;
-    width: 100%;
-    margin: 0 auto 25px auto;
-    display: block;
-    background: url(../images/pexels-kampus-production-8734462.jpg) no-repeat center center;   
-}
-
-#center-services-image {
-    height: 300px;
-    width: 100%;
-    margin: 0 auto 25px auto;
-    display: block;
-    background: url(../images/pexels-eva-penner-martens-11754092.jpg) no-repeat center center;   
-}
-
-#right-services-image {
-    height: 300px;
-    width: 100%;
-    margin: 0 auto 25px auto;
-    display: block;
-    background: url(../images/pexels-marián-šicko-4214919.jpg) no-repeat center center;   
-}
-
-/* Summary */
-
-#summary {
-    height: 350px;
-    padding-top: 20px;
-}
-
-#summary p {
-    width: 90%;
-    margin: none;
-    padding-top: 10px;
-    font-size: 16px;
-}
-
-/* Pricing Page */
-
-#pricing h1 {
-    font-size: 30px;
-    margin-top: 80px;
-}
-
-#pricing h3 {
-    font-size: 24px;
-    margin: 5px, 0, 5px, 0;
-
-}
-
-#pricing {
-    margin-top: 100px;
-    font-size: 16px;
-    margin: 3px;
-    text-align: center;
-}
-
-/* gallery */
-
-#gallery {
-    column-count: 2;
-    margin-top: 60px;
-}
-
-#gallery > img {
-    width: 100%;
-}
-
-/* Contact us page */
-
-.contact-image {
-    width: 100%;
+    .center-values-heading {
     float: none;
-    margin-left: 20%;
-    display: block;
-}
+    line-height: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: none;
+    }
 
-.message-text {
-    height: 400px;
-}
+    .right-values-heading {
+        float: none;
+    line-height: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: none;
+    }
 
-.form {
-    margin-bottom: 0px;
-    height: 800px;
-}
+    /* Our Services */
 
-.container {
-  border-radius: none;
-  padding: 5px;
-  text-align: center;
-  margin-top: 60px;
-}
+    #our-services {
+        height: 1680px;
+        padding-top: 20px;
+    }
 
-.container h2 {
-    margin-top: 20px;
-}
+    #our-services h1 {
+        text-align: center;
+        font-size: 30px;
+    }
 
-.container p {
-    width: 90%;
-    margin-left: 5%;
-}
+    #left-services {
+        padding-top: 5px;
+        padding-left: none;
+        width: 100%;
+        float: none;
+    }
 
-.form-selection {
-  float: none;
-  width: 100%;
-  margin-top: 6px;
-  padding: 20px;
-}
+    #center-services {
+        padding-top: 5px;
+        padding-left: none;
+        width: 100%;
+        float: none;
+    }
 
-.form:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+    #right-services {
+        padding-top: 5px;
+        padding-left: none;
+        width: 100%;
+        float: none;
+    }
+
+    .left-services-heading {
+        float: none;
+        line-height: 20px;
+        margin: none;
+        padding-right: none;
+    }
+
+    .left-services-heading > h2 {
+        color: rgb(255, 255, 255);
+    }
+
+    .center-services-heading {
+        line-height: 20px;
+        margin: 10px;
+        float: left;
+        text-align: center;
+    }
+
+    .center-services-heading > h2 {
+        color: rgb(255, 255, 255);
+    }
+
+    .right-services-heading {
+        float: left;
+        line-height: 20px;
+        clear: both;
+        margin: 10px;
+        text-align: center;
+        padding-left: 10px;
+    }
+
+    .right-services-heading > h2 {
+        color: rgb(255, 255, 255);
+    }
+
+    #left-services-image {
+        height: 300px;
+        width: 100%;
+        margin: 0 auto 25px auto;
+        display: block;
+        background: url(../images/pexels-kampus-production-8734462.jpg) no-repeat center center;   
+    }
+
+    #center-services-image {
+        height: 300px;
+        width: 100%;
+        margin: 0 auto 25px auto;
+        display: block;
+        background: url(../images/pexels-eva-penner-martens-11754092.jpg) no-repeat center center;   
+    }
+
+    #right-services-image {
+        height: 300px;
+        width: 100%;
+        margin: 0 auto 25px auto;
+        display: block;
+        background: url(../images/pexels-marián-šicko-4214919.jpg) no-repeat center center;   
+    }
+
+    /* Summary */
+
+    #summary {
+        height: 350px;
+        padding-top: 20px;
+    }
+
+    #summary p {
+        width: 90%;
+        margin: none;
+        padding-top: 10px;
+        font-size: 16px;
+    }
+
+    /* Pricing Page */
+
+    #pricing h1 {
+        font-size: 30px;
+        margin-top: 80px;
+    }
+
+    #pricing h3 {
+        font-size: 24px;
+        margin: 5px, 0, 5px, 0;
+
+    }
+
+    #pricing {
+        margin-top: 100px;
+        font-size: 16px;
+        margin: 3px;
+        text-align: center;
+    }
+
+    /* gallery */
+
+    #gallery {
+        column-count: 2;
+        margin-top: 60px;
+    }
+
+    #gallery > img {
+        width: 100%;
+    }
+
+    /* Contact us page */
+
+    .contact-image {
+        width: 100%;
+        float: none;
+        margin-left: 20%;
+        display: block;
+    }
+
+    .message-text {
+        height: 400px;
+    }
+
+    .form {
+        margin-bottom: 0px;
+        height: 800px;
+    }
+
+    .container {
+    border-radius: none;
+    padding: 5px;
+    text-align: center;
+    margin-top: 60px;
+    }
+
+    .container h2 {
+        margin-top: 20px;
+    }
+
+    .container p {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .form-selection {
+    float: none;
+    width: 100%;
+    margin-top: 6px;
+    padding: 20px;
+    }
+
+    .form:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
 
 }
 
@@ -758,6 +772,25 @@ h1, h2 {
 
 /* Navigation Links */
 
+header {
+    justify-content: center;
+    padding-bottom: 90px;
+}
+
+#main-nav li {
+    margin-right: 0px;
+    font-size: 14px;
+}
+
+#main-nav li a {
+    letter-spacing: 1px;
+    text-align:center;
+    padding: 0 5px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+
 /* Hero Image */
 
 #hero-outer {
@@ -773,11 +806,9 @@ h1, h2 {
 } 
 
 #overlay {
-    width: 70%;
-    padding: 10px;
-    font-size: 16px;
+    display: none;
 }
-/* Our Values - COME BACK TO!!!*/
+/* Our Values */
 
 #our-values {
     height: 550px;
@@ -902,30 +933,6 @@ h1, h2 {
 .right-services-heading > h2 {
     color: rgb(255, 255, 255);
 }
-
-/*#left-services-image {
-    height: 300px;
-    width: 100%;
-    margin: 0 auto 25px auto;
-    display: block;
-    background: url(../images/our-services-dog.png) no-repeat center center;   
-}
-
-#center-services-image {
-    height: 300px;
-    width: 100%;
-    margin: 0 auto 25px auto;
-    display: block;
-    background: url(../images/our-services-house.png) no-repeat center center;   
-}
-
-#right-services-image {
-    height: 300px;
-    width: 100%;
-    margin: 0 auto 25px auto;
-    display: block;
-    background: url(../images/our-services-cat.png) no-repeat center center;   
-    } */
 
 /* Summary */
 
