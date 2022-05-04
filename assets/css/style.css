@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: "Fira+Sans:wght@200, sans-serif";
     font-weight: 300;
@@ -20,11 +19,9 @@ h1, h2 {
     font-family: "Fira+Sans:wght@200, sans-serif";
     letter-spacing: 2px;
     color: #006778;
-
 }
 
 #logo {
-    /* float: left; */
     font-size: 0%;
 }
 
@@ -175,21 +172,17 @@ hr {
 
 #left-services {
     padding-top: 10px;
-    /* padding-left: 5%; */
     width: 30%;
-    /* float: left; */
 }
 
 #center-services {
      padding-top: 10px;
      width: 30%;
-     /* float: left; */
 }
 
 #right-services {
      padding-top: 10px;
      width: 30%;
-     /* float: left; */
 }
 
 hr {
@@ -203,29 +196,21 @@ hr {
 }
 
 .left-services-heading {
-    /* float: left; */
     line-height: 20px;
     clear: both;
-    /* margin: 10px; */
     text-align: center;
-    /* padding-right: 10px; */
     color: rgb(255, 255, 255);
 }
 
 .center-services-heading {
     line-height: 20px;
-    /* margin: 10px; */
-    /* float: left; */
     text-align: center;
 }
 
 .right-services-heading {
-    /* float: left; */
     line-height: 20px;
     clear: both;
-    /* margin: 10px; */
     text-align: center;
-    /* padding-left: 10px; */
 }
 
 #left-services-image {
@@ -410,7 +395,6 @@ tr:nth-child(odd) {
     color: #d6da10;
   }
   
-  /* Style the container/contact section */
   .container {
     border-radius: 5px;
     background-color: #d8e5e7;
@@ -420,8 +404,6 @@ tr:nth-child(odd) {
     margin-top: 30px;
   }
   
-  
-  /* Create two columns that float next to eachother */
   .form-selection {
     float: right;
     width: 50%;
@@ -429,14 +411,12 @@ tr:nth-child(odd) {
     padding: 20px;
   }
   
-  /* Clear floats after the columns */
   .form:after {
     content: "";
     display: table;
     clear: both;
   }
 
-  /* Thank you landing page (after form submission) */
     #thank-you {
         height: 1200px;
         padding-top: 30px;
@@ -455,12 +435,7 @@ tr:nth-child(odd) {
         padding-top: 30px;
     }
 
-
-
-
 /* media queries */
-
-
 
  /* Responsive layout - when the screen is less than 320px wide - small */
  
@@ -629,7 +604,7 @@ tr:nth-child(odd) {
     .left-services-heading {
         float: none;
         line-height: 20px;
-        margin: none;
+        margin: 0;
         padding-right: 0;
     }
 
@@ -670,7 +645,7 @@ tr:nth-child(odd) {
 
     #summary p {
         width: 90%;
-        margin: none;
+        margin: 0;
         padding-top: 10px;
         font-size: 16px;
     }
@@ -684,7 +659,7 @@ tr:nth-child(odd) {
 
     #pricing h3 {
         font-size: 24px;
-        margin: 5px, 0, 5px, 0;
+        margin: 5px 0 5px 0;
 
     }
 
@@ -725,7 +700,7 @@ tr:nth-child(odd) {
     }
 
     .container {
-    border-radius: none;
+    border-radius: 0;
     padding: 5px;
     text-align: center;
     margin-top: 60px;
@@ -910,7 +885,7 @@ header {
 .left-services-heading {
     float: none;
     line-height: 20px;
-    margin: none;
+    margin: 0;
     padding-right: 0;
 }
 
@@ -949,11 +924,6 @@ header {
     padding-top: 50px;
 }
 
-/* Pricing Page */
-
-
-/* gallery */
-
 /* Contact us page */
 
 .contact-image {
@@ -973,7 +943,7 @@ header {
 }
 
 .container {
-  border-radius: none;
+  border-radius: 0;
   padding: 5px;
   text-align: center;
   margin-top: 60px;

@@ -81,10 +81,32 @@ We provide the following services:
 
 ## Testing:
 
-- Media queries have been added for small and medium screen sizes. This means that the website should be easily readable and functional across a wide range of devices. The overall design was completed on a desktop size screen (large), therefore the website design and media queries should cover all screen size widths and orientations.
+- Media queries have been added for small and medium screen sizes. This means that the website should be easily readable and functional across a wide range of devices. The overall design was completed on a desktop size screen (large), therefore the website design and media queries should cover all standard screen size widths and orientations.
+
+- I tested that this page works in different browsers: Chrome, Firefox, Saari.
+
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+
+- I confirmed that the navigation, header, pricing page, gallery and contact us page are all readable and easy to understand.
+
+- I have confirmed that the form works. Required fields have been added to essential information needed to contact the customer. A valid email address only works in the email address field. The submit button works and takes the user to a seperate thank you page.
 
 ### Validator Testing:
 - HTML:
     No errors were returned when passing through the official W3C validator
 
-- 
+- CSS:
+    No errors were returned when passing through the official W3C CSS Validator (Jigsaw)
+
+    ------
+
+    ## Deployment:
+
+    This site was deployed to GitHub Pages. 
+
+    The live link can be found here: [Hapy Tails](https://tamsincraddock.github.io/project-1/)
+
+    -----
+
+    ## Images:
+    - The images throughout the website were taken from [Pexels](https://www.pexels.com/) (Royalty Free Images).
