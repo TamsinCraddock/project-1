@@ -92,12 +92,7 @@ header {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat center center;
-
 }
-
-/* Hero Image Effect? */
-
-/* Hero Image cover text? 'find your pet sitter or dog walker today' */
 
 /* Our Values */
 
@@ -106,7 +101,7 @@ header {
      padding-top: 30px;
 }
 
-#our-values h1 {
+#our-values h2 {
     text-align: center;
     font-size: 40px;
 }
@@ -168,7 +163,7 @@ hr {
     color: rgb(255, 255, 255);
 }
 
-#our-services h1 {
+#our-services h2 {
     text-align: center;
     font-size: 40px;
     color: rgb(255, 255, 255);
@@ -391,6 +386,16 @@ tr:nth-child(odd) {
     resize: vertical;
     height: auto;
   }
+
+  input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #006778;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    height: auto; 
+  }
   
   input[type=submit] {
     background-color: #d6da10;
@@ -430,6 +435,25 @@ tr:nth-child(odd) {
     display: table;
     clear: both;
   }
+
+  /* Thank you landing page (after form submission) */
+    #thank-you {
+        height: 1200px;
+        background: url(../images/pexels-valeria-boltneva-1805164.jpg) no-repeat center center;
+    }
+
+    #thank-you h1 {
+        text-align: center;
+        font-size: 56px;
+        padding-top: 30px;
+    }
+
+    #thank-you p {
+        text-align: center;
+        font-size: 38px;
+        padding-top: 30px;
+    }
+
 
 
 
