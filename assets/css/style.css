@@ -735,7 +735,7 @@ hr {
 
 /* Responsive layout - when the screen is less than 768px wide - medium */
  
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
 
     .small {
         display: inherit;
@@ -777,16 +777,12 @@ h1, h2 {
     padding: 10px;
     font-size: 16px;
 
-}
-/* Our Values */
+}it 
+/* Our Values - COME BACK TO!!!*/
 
-/*#our-values {
-    height: 520px;
+#our-values {
+    height: none;
     padding-top: none;
-}
-
-#our-values h1 {
-   font-size: 40px;
 }
 
 #left-values {
@@ -838,19 +834,14 @@ hr {
    margin-bottom: 10px;
    text-align: center;
    padding-right: none;
-}*/
+}
 
 
 /* Our Services */
 
 #our-services {
-    height: 1680px;
+    height: 900px;
     padding-top: 20px;
-}
-
-#our-services h1 {
-    text-align: center;
-    font-size: 30px;
 }
 
 #left-services {
@@ -936,8 +927,8 @@ hr {
 /* Summary */
 
 #summary {
-    height: 350px;
-    padding-top: 20px;
+    height: 300px;
+    padding-top: 50px;
 }
 
 #summary p {
