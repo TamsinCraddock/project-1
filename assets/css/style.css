@@ -203,7 +203,7 @@ hr {
 
 #services-container {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content:space-around;
 }
 
@@ -776,92 +776,95 @@ h1, h2 {
     width: 70%;
     padding: 10px;
     font-size: 16px;
-
-}it 
+}
 /* Our Values - COME BACK TO!!!*/
 
 #our-values {
-    height: none;
+    height: 550px;
     padding-top: none;
 }
 
-#left-values {
-   padding-top: 10px;
-   padding-left: none;
-   width: 100%;
-   float: none;
-   font-size: 18px;
-   margin-bottom: 20px;
-}
-
-#center-values {
+#our-values h1 {
+    font-size: 30px;
+ }
+ 
+ #left-values {
     padding-top: 10px;
     padding-left: none;
-    width: 100%;
+    margin-left: 20px;
+    width: 90%;
     float: none;
-}
-
-#right-values {
-    padding-top: 10px;
-    padding-left: none;
-    width: 100%;
+ }
+ 
+ #center-values {
+     padding-top: 10px;
+     padding-left: none;
+     margin-left: 20px;
+     width: 90%;
+     float: none;
+ }
+ 
+ #right-values {
+     padding-top: 10px;
+     padding-left: none;
+     margin-left: 20px;
+     width: 90%;
+     float: none;
+ }
+ 
+ hr {
+    margin-bottom: 20px;
+ }
+ 
+ .left-values-heading {
     float: none;
-}
-
-hr {
-   margin-bottom: 20px;
-}
-
-.left-values-heading {
-   float: none;
-   line-height: 15px;
-   margin-bottom: 10px;
-   text-align: center;
-   padding-right: none;
-}
-
-.center-values-heading {
-   float: none;
-   line-height: 15px;
-   margin-bottom: 10px;
-   text-align: center;
-   padding-right: none;
-}
-
-.right-values-heading {
+    line-height: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: none;
+ }
+ 
+ .center-values-heading {
     float: none;
-   line-height: 15px;
-   margin-bottom: 10px;
-   text-align: center;
-   padding-right: none;
-}
-
+    line-height: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: none;
+ }
+ 
+ .right-values-heading {
+     float: none;
+    line-height: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: none;
+ }
 
 /* Our Services */
 
 #our-services {
-    height: 900px;
-    padding-top: 20px;
+    height: 1650px;
+    padding-top: 40px;
 }
 
 #left-services {
-    padding-top: 5px;
+    padding-top: 15px;
     padding-left: none;
-    width: 100%;
+    width: 90%;
     float: none;
 }
 
 #center-services {
-    padding-top: 5px;
+    padding-top: 15px;
     padding-left: none;
-    width: 100%;
+    width: 90%;
     float: none;
 }
 
 #right-services {
-    padding-top: 5px;
+    padding-top: 15px;
     padding-left: none;
-    width: 100%;
+    width: 90%;
     float: none;
 }
 
@@ -900,12 +903,12 @@ hr {
     color: rgb(255, 255, 255);
 }
 
-#left-services-image {
+/*#left-services-image {
     height: 300px;
     width: 100%;
     margin: 0 auto 25px auto;
     display: block;
-    background: url(../images/pexels-kampus-production-8734462.jpg) no-repeat center center;   
+    background: url(../images/our-services-dog.png) no-repeat center center;   
 }
 
 #center-services-image {
@@ -913,7 +916,7 @@ hr {
     width: 100%;
     margin: 0 auto 25px auto;
     display: block;
-    background: url(../images/pexels-eva-penner-martens-11754092.jpg) no-repeat center center;   
+    background: url(../images/our-services-house.png) no-repeat center center;   
 }
 
 #right-services-image {
@@ -921,8 +924,8 @@ hr {
     width: 100%;
     margin: 0 auto 25px auto;
     display: block;
-    background: url(../images/pexels-marián-šicko-4214919.jpg) no-repeat center center;   
-}
+    background: url(../images/our-services-cat.png) no-repeat center center;   
+    } */
 
 /* Summary */
 
