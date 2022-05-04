@@ -64,7 +64,13 @@ We provide the following services:
 ### Contact Us Page:
 - This page allows the user to fill out a contact form so that Happy Tails would be able to get in touch with the customer and answer any questions that they may have or get them to sign up to the service.
 
-![Happy Tails contact us page](/assets/images/Happy-Tails-contact-us.png)
+![Happy Tails contact us page](/assets/images/Happy-Tails-contact-us2.png)
+
+### Thank You for your message:
+- This page is shown once the user has filled out the contact form. 
+- This page serves to show the user that their message has been successfully sent and that Happy Tails will respond to their message as soon as possible.
+
+![Happy Tails thank you page](/assets/images/Happy-Tails-thank-you-page.png)
 
 ------
 
@@ -74,3 +80,11 @@ We provide the following services:
 -------
 
 ## Testing:
+
+- Media queries have been added for small and medium screen sizes. This means that the website should be easily readable and functional across a wide range of devices. The overall design was completed on a desktop size screen (large), therefore the website design and media queries should cover all screen size widths and orientations.
+
+### Validator Testing:
+- HTML:
+    No errors were returned when passing through the official W3C validator
+
+- 
