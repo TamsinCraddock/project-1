@@ -281,6 +281,10 @@ hr {
 footer {
     height: 200px;
     background-color: #006778;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 25px;
 }
 
 .social-networks {
@@ -635,7 +639,7 @@ tr:nth-child(odd) {
     /* Summary */
 
     #summary {
-        height: 400px;
+        height: 600px;
         padding-top: 20px;
     }
 
@@ -916,7 +920,7 @@ header {
 /* Summary */
 
 #summary {
-    height: 300px;
+    height: 350px;
     padding-top: 50px;
 }
 
