@@ -931,43 +931,10 @@ hr {
     padding-top: 50px;
 }
 
-#summary p {
-    width: 90%;
-    margin: none;
-    padding-top: 10px;
-    font-size: 16px;
-}
-
 /* Pricing Page */
 
-#pricing h1 {
-    font-size: 30px;
-    margin-top: 80px;
-}
-
-#pricing h3 {
-    font-size: 24px;
-    margin: 5px, 0, 5px, 0;
-
-}
-
-#pricing {
-    margin-top: 100px;
-    font-size: 16px;
-    margin: 3px;
-    text-align: center;
-}
 
 /* gallery */
-
-#gallery {
-    column-count: 2;
-    margin-top: 60px;
-}
-
-#gallery > img {
-    width: 100%;
-}
 
 /* Contact us page */
 
