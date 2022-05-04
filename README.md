@@ -23,7 +23,7 @@ We provide the following services:
 ### The Landing Page Image:
 - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
 
-# Insert Image!
+![Happy Tails hero image with image](/assets/images/Happy-Tails-Hero.png)
 
 ### Our Values Section:
 - The Our Values section would allow the user to see the benefits of using Happy Tails.
@@ -33,7 +33,7 @@ We provide the following services:
 ### Our Services Section:
 - The Our Services section gives the user an overview of the services offered by Happy Tails. There is also a description below each service heading to give a more in depth explination of the service offered.
 
-# Insert Image!
+![Happy Tails our servics section on website](/assets/images/Happy-Tails-our-services.png)
 
 ### Summary section:
 - The Expert Dog Walking Service summary section serves to summarize why you should choose to use Happy Tails. It also explains a few different service options that may appeal to the user.
@@ -64,7 +64,13 @@ We provide the following services:
 ### Contact Us Page:
 - This page allows the user to fill out a contact form so that Happy Tails would be able to get in touch with the customer and answer any questions that they may have or get them to sign up to the service.
 
-# Insert Image!
+![Happy Tails contact us page](/assets/images/Happy-Tails-contact-us.png)
+
+------
 
 ### Features Left To Implement:
 - In the future, we could look at adding an automatic online booking system that would allow users to make bookings using the website.
+
+-------
+
+## Testing:

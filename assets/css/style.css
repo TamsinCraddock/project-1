@@ -498,13 +498,16 @@ tr:nth-child(odd) {
         width: 100%;
         background: url(../images/small\ screen_hero-image.jpg) no-repeat center center;
         margin-top: 40px;
-
     } 
+
+    #overlay {
+        display: none;
+    }
 
     /* Our Values */
 
     #our-values {
-        height: 620px;
+        height: 800px;
         padding-top: none;
     }
 
@@ -564,7 +567,7 @@ tr:nth-child(odd) {
     /* Our Services */
 
     #our-services {
-        height: 1680px;
+        height: 1800px;
         padding-top: 20px;
     }
 
@@ -629,34 +632,10 @@ tr:nth-child(odd) {
         color: rgb(255, 255, 255);
     }
 
-    #left-services-image {
-        height: 300px;
-        width: 100%;
-        margin: 0 auto 25px auto;
-        display: block;
-        background: url(../images/pexels-kampus-production-8734462.jpg) no-repeat center center;   
-    }
-
-    #center-services-image {
-        height: 300px;
-        width: 100%;
-        margin: 0 auto 25px auto;
-        display: block;
-        background: url(../images/pexels-eva-penner-martens-11754092.jpg) no-repeat center center;   
-    }
-
-    #right-services-image {
-        height: 300px;
-        width: 100%;
-        margin: 0 auto 25px auto;
-        display: block;
-        background: url(../images/pexels-marián-šicko-4214919.jpg) no-repeat center center;   
-    }
-
     /* Summary */
 
     #summary {
-        height: 350px;
+        height: 400px;
         padding-top: 20px;
     }
 
